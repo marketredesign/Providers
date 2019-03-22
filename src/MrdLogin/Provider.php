@@ -3,6 +3,7 @@
 namespace MarketRedesign\MrdLogin;
 
 use Illuminate\Support\Arr;
+use SocialiteProviders\Manager\Contracts\OAuth2\ProviderInterface;
 use SocialiteProviders\Manager\OAuth2\AbstractProvider;
 use SocialiteProviders\Manager\OAuth2\User;
 
