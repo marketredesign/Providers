@@ -31,6 +31,19 @@ class Provider extends AbstractProvider implements ProviderInterface
     /**
      * {@inheritdoc}
      */
+    public static function additionalConfigKeys()
+    {
+        return [
+            'host',
+            'authorize_uri',
+            'token_uri',
+            'userinfo_uri',
+        ];
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     protected function getAuthUrl($state)
     {
         return $this->buildAuthUrlFromBase($this->getLaravelPassportUrl('authorize_uri'), $state);
