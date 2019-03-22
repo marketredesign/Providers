@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\Google;
+namespace MarketRedesign\MrdLogin;
 
 use Illuminate\Support\Arr;
 use SocialiteProviders\Manager\OAuth2\AbstractProvider;

@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\Google;
+namespace MarketRedesign\MrdLogin;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
 
